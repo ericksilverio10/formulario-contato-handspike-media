@@ -1,0 +1,82 @@
+*{
+    font-family: 'Montserrat';
+}
+#home-link{
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.5s all ease-in-out;
+}
+.nav-brand img{
+    margin-left: 20px;
+    margin-right: 40px;
+    width: 250px;
+}
+#main-title{
+    cursor: pointer;
+    text-align: center;
+    margin: 30px 0 30px;
+    transition: 0.5s all ease-in-out;
+}
+#main-title:hover{
+    letter-spacing: 3px;
+}
+
+/* HOME */
+#trabalhos-table {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+#trabalhos-table thead{
+    color: #FFF;
+    background: linear-gradient(to right,#B30FC3 25%, #660974 100%);
+}
+.id, .nome{
+    font-weight: bold;
+}
+.actions{
+    text-align: right;
+    width: 50px;
+}
+.actions i{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.check-icon{
+    color:rgb(0, 133, 40);
+}
+.edit-icon{
+    color:rgb(0, 89, 206);
+}
+.delete-icon{
+    color:rgb(189, 0, 0);
+}
+.delete-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+/* SHOW / TRABALHO INDIVIDUAL */
+.bold{
+    font-weight: bold;
+}
+.container-show{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+/* ADICIONAR TRABALHO */
+.form-nome{
+    margin-bottom: 20px;
+}
+
+.form_input_text{
+    border-radius: 20px;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1180px;
+}
+}

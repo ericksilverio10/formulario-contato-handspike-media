@@ -1,0 +1,9 @@
+CREATE TABLE contato (
+	id  INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    data_horario DATETIME,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    telefone VARCHAR(100),
+    website VARCHAR(100),
+    como_conheceu VARCHAR(200)
+)
